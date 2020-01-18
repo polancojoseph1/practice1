@@ -1,5 +1,5 @@
-const db = require('./db')
-const Campus = require('./campus')
+const db = require('./server/db/db')
+const Campus = require('./server/db/campus')
 
 const seed = async () => {
     await db.sync({force: true})
